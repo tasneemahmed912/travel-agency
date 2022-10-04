@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Table layout</title>
+
+<link rel="stylesheet" href="t.css">
+
+</head>
+
+<body>
+    <header>
+        <p> <span id='date-time'></span>.</p>
+
+        <script>
+        var dt = new Date();
+        document.getElementById('date-time').innerHTML=dt;
+        </script>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="book .html">book</a>
+        <a href="packages.html">packages</a>
+
+        <a href="contact.html">contact</a>
+        <a href="h.html">Team</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    </header>
+    
+        
+        <div class="container">
+        <video src="/images/Introducing Inspiring Travel Company.mp4" class="slider" autoplay loop muted controls></video>
+
+        <ul>
+            <li onclick="videoslider('/images/Introducing Inspiring Travel Company.mp4')"><video src="/images/Introducing Inspiring Travel Company.mp4"></video></li>
+            <li onclick="videoslider('/images/vid-1.mp4')"><video src="/images/vid-1.mp4"></video></li>
+            <li onclick="videoslider('/images/vid-2.mp4')"><video src="/images/vid-2.mp4"></video></li>
+            <li onclick="videoslider('/images/vid-3.mp4')"><video src="/images/vid-3.mp4"></video></li>
+            <li onclick="videoslider('/images/vid-4.mp4')"><video src="/images/vid-4.mp4"></video></li>
+            <li onclick="videoslider('/images/vid-5.mp4')"><video src="/images/vid-5.mp4"></video></li>
+        </ul>
+        </div>
+        <script>
+
+        function videoslider(links){
+            document.querySelector(".slider").src = links;
+        }
+
+    </script>
+            
+        <div>
+            <h1 class="heading">
+                <span>T</span>
+                <span>e</span>
+                <span>a</span>
+                <span>m</span>
+                <span class="space"></span>
+                <span>M</span>
+                <span>e</span>
+                <span>m</span>
+                <span>b</span>
+                <span>e</span>
+                <span>r</span>
+        </h1> 
+        <table style = "text-align: center;">
+
+        
+        <tr>
+            <td colspan="2">Haneen Mohammed</td> 
+            <td>ID: 20191032855</td> 
+        </tr>
+        
+        <tr>
+            <td colspan="2">Esraa Sabri </td> 
+            <td>ID: 20191033195</td>
+        
+        </tr>
+        
+        <tr>
+            <td colspan="2">Nour Hamed</td> 
+            <td>ID: 20191613025</td>
+        </tr>
+        
+        <tr>
+        
+            <td colspan="2">Esraa Hassan</td> 
+            <td>ID: 20191617021</td> 
+        </tr>
+        
+        <tr>
+            <td colspan="2">Omnia Ashraf</td> 
+            <td>ID:20191613112 </td> 
+        </tr>
+        
+        <tr>
+        
+            <td colspan="2">Merna Hossam</td> 
+            <td>ID: 20191312073</td> 
+        
+        </tr>
+        
+        <tr>
+            <td colspan="2">Yara Mohamed</td> 
+            <td>20191614146</td> 
+        </tr>
+        
+        <tr>
+            <td colspan="2">Rowan Adel</td> 
+            <td>20201472484</td> 
+        </tr>
+        
+        
+        <tr > 
+            <td colspan="2">Arwa Ahmed</td> 
+            <td>20201383007</td> 
+        </tr>
+        
+        <tr > 
+            <td colspan="2">Tasneem Ahmed</td> 
+            <td>20201448026</td> 
+        </tr>
+        </table>
+        </div>
+        <div class="ab-us">
+            <h1 class="heading">
+                <span>T</span>
+                <span>e</span>
+                <span>a</span>
+                <span>m</span>
+                <span class="space"></span>
+                <span>E</span>
+                <span>x</span>
+                <span>p</span>
+                <span>e</span>
+                <span>e</span>
+                <span>r</span>
+                <span>i</span>
+                <span>a</span>
+                <span>n</span>
+                <span>c</span>
+                <span>e</span>
+        </h1> 
+
+        <ul > 
+            <li>Experets in HTML</li>
+            <li>Experets in CSS</li>
+            <li>Experets in Java Script</li>
+        </ul>
+        <div >
+        <button  class="btn" onclick= "myFunction()" >To contact with Team members </button>
+        <p  id="demo"></p>
+        <p  id="demo1"></p>
+        <p  id="demo2"></p>
+        <p  id="demo3"></p>
+        <p  id="demo4"></p>
+        <p  id="demo5"></p>
+        <p  id="demo6"></p>
+        <p  id="demo7"></p>
+        <p  id="demo8"></p>
+        <p  id="demo9"></p>
+        </div>
+        
+           <script>
+               function myFunction() {
+                 document.getElementById("demo").innerHTML = "Esraa sabri : 01023403107  " ;
+                 document.getElementById("demo1").innerHTML = "Haneen : 0132702481 " ;
+                 document.getElementById("demo2").innerHTML = "Omnia : 01281411550 " ;
+                 document.getElementById("demo3").innerHTML = "Esraa Hassan : 01228687226 " ;
+                 document.getElementById("demo4").innerHTML = "Merna : 01119563396 " ;
+                 document.getElementById("demo5").innerHTML = "Nour : 0109586980 " ;
+                 document.getElementById("demo6").innerHTML = "Yara : 01212068138 " ;
+                 document.getElementById("demo7").innerHTML = "Tasneem : 01127102688" ;
+                 document.getElementById("demo8").innerHTML = "Rowan : 01202189103 " ;
+                 document.getElementById("demo9").innerHTML = "Arwa : 01212771429" ;
+
+               }
+           </script> 
+		   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="js/jquery.hislide.js"></script>
+        <script>$('.slide').hiSlide();</script>
+           <div class="footer">  
+           <footer>
+            <h1 class="credit"> created by <span style="color:orange"> Nuts </span> | all rights reserved! </h1>
+          </footer>
+            </div>
+                  
+</body>
+
+</html>
